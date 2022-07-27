@@ -200,3 +200,74 @@ p {
   transform: translate(-50%,0);
 }
 
+
+#holder{
+			
+  position: relative;
+  width: 600px;
+  margin: 100px auto;
+  
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;     
+  -o-user-select: none;
+  user-select: none;
+}
+
+#slogans{
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+
+p.slogan{
+  text-rendering: optimizeLegibility;
+  margin: 0px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+p.slogan strong{
+  display:block;
+  position:relative;
+  opacity:0;
+}
+
+.top-text{
+  text-align: left;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+#spin {
+  color:#32cd32;
+  font-size:25px;
+}
+#spin:after {
+  content:"";
+  animation: spin 30s linear infinite;
+    font-size:40px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    color: #32cd32;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@keyframes spin {
+  0% { content:"Hello"; }
+  10% { content:"You Have Been Hacked!"; }
+  20% { content:"Oooo yeees,you are!"; }
+  30% { content:"We are stealing your money"; }
+  40% { content:"Thank you for clients data!"; }
+  50% { content: "We Have Your Passwords"; }
+  60% { content: "We Took Your Bank Account Deatils"; }
+  70% { content: "Your Company Security is big 0"; }
+  80% { content: "We Want $300,000"; }
+  90% { content: "You gonna get fired hahaha!"; }
+}
+
