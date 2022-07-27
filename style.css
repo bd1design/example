@@ -89,7 +89,7 @@ p {
   text-align: center;
  font-family: 'Orbitron', sans-serif;
  font-weight: 900;
- font-size: 22px;
+ font-size: 20px;
  text-transform: uppercase;
  color: #fff;
  margin-bottom: 40px;
@@ -99,7 +99,7 @@ p {
   text-align: center;
  font-family: 'Orbitron', sans-serif;
  font-weight: 900;
- font-size: 29px;
+ font-size: 32px;
  text-transform: uppercase;
  color: #ef1f1f;
 }
@@ -240,6 +240,10 @@ p.slogan strong{
   text-decoration: none;
   text-transform: uppercase;
   margin-bottom: 40px;
+  position:absolute;
+  right: 20px;
+  bottom: 0;
+  z-index: 999;
 }
 
 #spin {
@@ -249,7 +253,7 @@ p.slogan strong{
 #spin:after {
   content:"";
   animation: spin 30s linear infinite;
-    font-size:40px;
+    font-size:18px;
     font-family: 'Orbitron', sans-serif;
     font-weight: 900;
     color: #32cd32;
@@ -259,13 +263,13 @@ p.slogan strong{
 @keyframes spin {
   0% { content:"Hello"; }
   10% { content:"You Have Been Hacked!"; }
-  20% { content:"Oooo yeees,you are!"; }
+  20% { content:"Oooo yeees, you are!"; }
   30% { content:"We are stealing your money"; }
   40% { content:"Thank you for clients data!"; }
-  50% { content: "We Have Your Passwords"; }
-  60% { content: "We Took Your Bank Account Deatils"; }
+  50% { content: "We Have All Your Passwords"; }
+  60% { content: "We Have Bank Acc. Deatails!"; }
   70% { content: "Your Company Security is big 0"; }
-  80% { content: "We Want $300,000"; }
+  80% { content: "We Want Now $300,000"; }
   90% { content: "You gonna get fired hahaha!"; }
 }
 
