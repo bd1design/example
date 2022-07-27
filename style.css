@@ -184,7 +184,7 @@ p {
 .hacker {
   position: absolute;
   
-  background: url(./hacker.png) no-repeat;
+  background: url(./scary-hacker.png) no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
    background-position: right bottom;
@@ -194,10 +194,8 @@ p {
    width: 427px;
    height: 400px;
 
-   top: 50%;
-  transform: translateY(-50%);
-  left: 50%;
-  transform: translate(-50%,0);
+   bottom: 0;
+   right: 0;
 }
 
 
