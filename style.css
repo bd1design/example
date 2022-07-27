@@ -178,3 +178,25 @@ p {
   margin-right: auto;
   margin-top: 30px;
 }
+
+
+
+.hacker {
+  position: absolute;
+  
+  background: url(./hacker.png) no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+   background-position: right bottom;
+   border: none;
+   outline: 0;
+  
+   width: 427px;
+   height: 400px;
+
+   top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
